@@ -1,0 +1,32 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-keybindings.json",
+  "$docs": "https://code.claude.com/docs/en/keybindings",
+  "bindings": [
+    {
+      "context": "Global",
+      "bindings": {
+        "ctrl+l": null,
+        "ctrl+shift+l": "app:redraw",
+        "ctrl+t": null,
+        "ctrl+k ctrl+t": "app:toggleTodos",
+        "ctrl+o": null,
+        "ctrl+k ctrl+o": "app:toggleTranscript"
+      }
+    },
+    {
+      "context": "Chat",
+      "bindings": {
+        "escape": null,
+        "ctrl+x ctrl+c": "chat:cancel",
+        "ctrl+s": null,
+        "ctrl+k ctrl+s": "chat:stash",
+        "ctrl+v": null,
+        "ctrl+shift+v": "chat:imagePaste"
+      }
+    },
+    {
+      "context": "Transcript",
+      "bindings": {}
+    }
+  ]
+}
