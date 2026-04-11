@@ -18,6 +18,7 @@ downloads/
 paste-cache/
 plans/
 file-history/
+stats-cache.json
 
 # Plugins (installed automatically)
 plugins/

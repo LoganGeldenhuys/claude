@@ -16,17 +16,11 @@
     {
       "context": "Chat",
       "bindings": {
-        "escape": null,
-        "ctrl+x ctrl+c": "chat:cancel",
         "ctrl+s": null,
         "ctrl+k ctrl+s": "chat:stash",
         "ctrl+v": null,
         "ctrl+shift+v": "chat:imagePaste"
       }
-    },
-    {
-      "context": "Transcript",
-      "bindings": {}
     }
   ]
 }
