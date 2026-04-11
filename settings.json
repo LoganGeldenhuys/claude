@@ -6,7 +6,27 @@
   },
   "enabledPlugins": {
     "clangd-lsp@claude-plugins-official": true,
-    "lua-lsp@claude-plugins-official": true
+    "lua-lsp@claude-plugins-official": true,
+    "next-task@agentsys": true,
+    "ship@agentsys": true,
+    "deslop@agentsys": true,
+    "audit-project@agentsys": true,
+    "drift-detect@agentsys": true,
+    "repo-intel@agentsys": true,
+    "enhance@agentsys": true,
+    "perf@agentsys": true,
+    "sync-docs@agentsys": true,
+    "learn@agentsys": true,
+    "consult@agentsys": true,
+    "debate@agentsys": true
+  },
+  "extraKnownMarketplaces": {
+    "agentsys": {
+      "source": {
+        "source": "github",
+        "repo": "agent-sh/agentsys"
+      }
+    }
   },
   "effortLevel": "high"
 }
